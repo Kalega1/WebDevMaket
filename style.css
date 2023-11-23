@@ -3,14 +3,27 @@
     padding: 0;
 }
 
-.top {}
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+}
+
 
 
 .header__menu {
-    margin-bottom: 89px;
-    padding-top: 51px;
-    padding-left: 1012px;
-    padding-bottom: 94px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    gap: 35px;
+
 
 }
 
@@ -32,33 +45,51 @@
     text-decoration: none;
 }
 
+.Logo__Text__1 {
+
+    padding-left: 14px;
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Logo__Text__2 {
+    color: #F25822;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 
 .logo__header {
-    margin-right: 1408px;
-    padding-left: 375px;
-    padding-top: 40px;
+    display: flex;
 
 }
 
-.top__info {
-
-    margin-right: 40px;
-    padding-bottom: 255px;
-    padding-top: 223px;
-    padding-left: 374px;
-    padding-right: 1025px;
+.top__content {
+    display: flex;
+    margin-top: 94px;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
 }
+
+.top__info {}
+
+
 
 .image__top__content {
-    margin-left: 40px;
-    padding-top: 94px;
-    padding-left: 935px;
-    padding-bottom: 162px;
+    display: flex;
 
 }
 
 h1 {
-    margin-bottom: 17px;
+
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -66,6 +97,7 @@ h1 {
 }
 
 p {
+    margin-top: 17px;
     color: #888;
     font-size: 20px;
     font-style: normal;
@@ -74,7 +106,12 @@ p {
 }
 
 .top__button {
-    padding-top: 37px;
+    display: flex;
+    margin-top: 37px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 72px;
 }
 
 button {
@@ -92,7 +129,6 @@ button {
 .top__button__link {
     text-decoration: none;
     color: #AAA;
-    padding-left: 72px;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -100,6 +136,7 @@ button {
 }
 
 .top__logos {
-    padding-top: 97px;
-    padding-left: 345px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
 }
