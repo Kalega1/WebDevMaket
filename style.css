@@ -139,4 +139,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 97px;
+    margin-bottom: 97px;
+    padding-top: 97px;
+    margin-bottom: 97px;
 }
